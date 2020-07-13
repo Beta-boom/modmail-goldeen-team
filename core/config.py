@@ -37,7 +37,7 @@ class ConfigManager:
         "account_age": isodate.Duration(),
         "guild_age": isodate.Duration(),
         "thread_cooldown": isodate.Duration(),
-        "reply_without_command": False,
+        "reply_without_command": True,
         "anon_reply_without_command": False,
         # logging
         "log_channel_id": None,
